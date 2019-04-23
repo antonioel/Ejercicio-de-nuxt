@@ -1,6 +1,7 @@
 <template>
   <v-layout>
-    <v-flex text-xs-center>
+    <v-flex
+    text-xs-center>
       <img
         src="/v.png"
         alt="Vuetify.js"

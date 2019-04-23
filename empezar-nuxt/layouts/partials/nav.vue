@@ -4,7 +4,9 @@
     app
     >
     <v-toolbar-items>
-        <v-btn flat>Vision Tec</v-btn>
+        <v-btn flat nuxt to="inspire">Dentro de vuetify</v-btn>
+        <v-btn flat nuxt to="/">Inicio</v-btn>
+        <v-btn flat loading></v-btn>
     </v-toolbar-items>
       <!-- <v-toolbar-side-icon @click="drawer = !drawer" />
       <v-btn

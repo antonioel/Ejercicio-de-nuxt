@@ -1,10 +1,9 @@
 <template>
   <v-layout
     column
-    justify-center
-    align-center
+    container
   >
-    <v-flex
+     <!--<v-flex
       xs12
       sm8
       md6
@@ -56,7 +55,9 @@
           >Continue</v-btn>
         </v-card-actions>
       </v-card>
-    </v-flex>
+    </v-flex> -->
+    <h1>The Best</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta reprehenderit ducimus delectus doloribus repudiandae perspiciatis, officiis optio ratione? Atque aliquam nesciunt dolorem animi aut minima iusto ullam voluptate in fugiat.</p>
   </v-layout>
 </template>
 
