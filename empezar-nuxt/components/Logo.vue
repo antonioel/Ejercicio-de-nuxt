@@ -35,7 +35,7 @@
 .Triangle--two {
   top: 30px;
   left: 35px;
-  animation: goright 0.5s linear forwards 3.5s;
+  animation: goright 2.5s linear forwards 5.5s;
   border-left: 87.5px solid transparent;
   border-right: 87.5px solid transparent;
   border-bottom: 150px solid #3b8070;
@@ -44,7 +44,7 @@
 .Triangle--three {
   top: 60px;
   left: 35px;
-  animation: goright 0.5s linear forwards 3.5s;
+  animation: goright 2.5s linear forwards 5.5s;
   border-left: 70px solid transparent;
   border-right: 70px solid transparent;
   border-bottom: 120px solid #35495e;
@@ -53,7 +53,7 @@
 .Triangle--four {
   top: 120px;
   left: 70px;
-  animation: godown 0.5s linear forwards 3s;
+  animation: godown 2.5s linear forwards 5s;
   border-left: 35px solid transparent;
   border-right: 35px solid transparent;
   border-bottom: 60px solid #fff;

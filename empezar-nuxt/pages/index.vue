@@ -1,7 +1,5 @@
 <template>
-  <v-layout
-    column
-    container
+  <div
   >
      <!--<v-flex
       xs12
@@ -56,9 +54,10 @@
         </v-card-actions>
       </v-card>
     </v-flex> -->
+    <VuetifyLogo />
     <h1>The Best</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta reprehenderit ducimus delectus doloribus repudiandae perspiciatis, officiis optio ratione? Atque aliquam nesciunt dolorem animi aut minima iusto ullam voluptate in fugiat.</p>
-  </v-layout>
+  </div>
 </template>
 
 <script>

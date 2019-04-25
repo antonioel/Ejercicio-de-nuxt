@@ -6,7 +6,8 @@
     <v-toolbar-items>
         <v-btn flat nuxt to="inspire">Dentro de vuetify</v-btn>
         <v-btn flat nuxt to="/">Inicio</v-btn>
-        <v-btn flat loading></v-btn>
+        <v-btn flat nuxt to="quagga">Quagga</v-btn>
+        <v-btn flat nuxt to="registro">Knex</v-btn>
     </v-toolbar-items>
       <!-- <v-toolbar-side-icon @click="drawer = !drawer" />
       <v-btn

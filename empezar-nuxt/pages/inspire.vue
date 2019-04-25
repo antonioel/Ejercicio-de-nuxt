@@ -14,7 +14,19 @@
             <em>&mdash;John Johnson</em>
           </small>
         </footer>
+        <!-- {{blah}} -->
       </blockquote>
     </v-flex>
   </v-layout>
 </template>
+<script>
+export default {
+  layout:'default'
+  // asyncData(context){
+  //   if(process.server){
+  //   console.log('holaaaaaaaaaaaaaaaaaaaaaaaaaaaaa');
+  // }
+  // return {blah: 'hi'}
+  // },
+}
+</script>

@@ -85,6 +85,9 @@
     </v-footer> -->
     <Nav/>
     <nuxt/>
+    <footer>
+      <p>Hola desde el footer</p>
+    </footer>
   </v-app>
 </template>
 
@@ -119,3 +122,8 @@ export default {
   }
 }
 </script>
+<style scoped>
+footer{
+  background-color:gray;
+}
+</style>
