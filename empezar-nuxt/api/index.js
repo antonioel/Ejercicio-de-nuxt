@@ -1,9 +1,16 @@
-var express = require("express");
-var app = express();
+const express = require("express");
+const app = express();
+const knex = require('./helper/knex');
 
+// app.get('/', function(req, res) {
+//     res.send("hello world");
+// });
 app.get('/', function(req, res) {
-    res.send("hello world");
-});
+    knex.select().from('dat_knex').then((data) => {
+        console.log(data);
+        res.send(`<script>${console.log(data)}</script>`);
+    })
+})
 
 module.exports = {
     path: '/api/',
